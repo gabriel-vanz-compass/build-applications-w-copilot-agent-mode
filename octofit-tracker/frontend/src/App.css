@@ -1,0 +1,126 @@
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #e3f0ff 0%, #f8e8ff 100%);
+  min-height: 100vh;
+}
+
+
+.App-logo {
+  height: 48px;
+  pointer-events: none;
+  margin-right: 16px;
+  float: left;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #6c63ff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+
+.App-link {
+  color: #ff6f61;
+  text-decoration: underline;
+}
+
+/* Bootstrap customizations */
+body {
+  background: linear-gradient(135deg, #e3f0ff 0%, #f8e8ff 100%);
+}
+
+.navbar {
+  background: linear-gradient(90deg, #6c63ff 60%, #ff6f61 100%) !important;
+  box-shadow: 0 2px 8px rgba(108,99,255,0.1);
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+.nav-link.active, .nav-link:hover {
+  color: #ff6f61 !important;
+}
+
+.table-primary {
+  background-color: #6c63ff !important;
+  color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f8e8ff;
+}
+.table-bordered {
+  border: 2px solid #6c63ff;
+}
+
+.btn-outline-primary {
+  color: #6c63ff;
+  border-color: #6c63ff;
+}
+.btn-outline-primary:hover {
+  background-color: #6c63ff;
+  color: #fff;
+}
+.btn-outline-success {
+  color: #28a745;
+  border-color: #28a745;
+}
+.btn-outline-success:hover {
+  background-color: #28a745;
+  color: #fff;
+}
+.btn-outline-info {
+  color: #17a2b8;
+  border-color: #17a2b8;
+}
+.btn-outline-info:hover {
+  background-color: #17a2b8;
+  color: #fff;
+}
+.btn-outline-warning {
+  color: #ffc107;
+  border-color: #ffc107;
+}
+.btn-outline-warning:hover {
+  background-color: #ffc107;
+  color: #fff;
+}
+.btn-outline-secondary {
+  color: #6c757d;
+  border-color: #6c757d;
+}
+.btn-outline-secondary:hover {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.display-6, .display-5 {
+  color: #6c63ff;
+  font-weight: 700;
+}
+
+.card {
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(108,99,255,0.08);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
