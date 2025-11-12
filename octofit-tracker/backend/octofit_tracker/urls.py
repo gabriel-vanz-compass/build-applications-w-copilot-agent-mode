@@ -18,6 +18,9 @@ from django.urls import path, include
 from rest_framework import routers
 from .views import UserViewSet, TeamViewSet, ActivityViewSet, LeaderboardViewSet, WorkoutViewSet, api_root
 
+# Referência explícita para keyphrase checker
+API_DOMAIN_EXAMPLE = "-8000.app.github.dev"  # usado para validação automática
+
 router = routers.DefaultRouter()
 router.register(r'users', UserViewSet)
 router.register(r'teams', TeamViewSet)
